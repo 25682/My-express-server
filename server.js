@@ -10,7 +10,7 @@ const PORT = 3000;
 app.use(bodyParser.json());
 
 // MongoDB connection string
-const mongoURI = 'mongodb://localhost:27017/mydatabase'; // Replace with your actual MongoDB connection string
+const mongoURI = 'mongodb://localhost:27017/mydatabase'; //MongoDB connection string
 
 // Connect to MongoDB
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
